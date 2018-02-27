@@ -22,13 +22,13 @@ First download jtool and export it, than cd terminal to that path than:
 **For macOS**
 
 ```
-chmod +x jtool && mv jtool /usr/local/bin
+sudo chmod +x jtool && sudo mv jtool /usr/local/bin
 ```
 
 **For Linux**
 
 ```
-chmod +x jtool.ELF64 && mv jtool.ELF64 /usr/local/bin/jtool
+sudo chmod +x jtool.ELF64 && sudo mv jtool.ELF64 /usr/local/bin/jtool
 ```
 
 Now clone this repo or download raw ipainstall.sh on your computer and use it like ./ipascript.sh ipa_name ip_address os_type.
@@ -36,7 +36,7 @@ Now clone this repo or download raw ipainstall.sh on your computer and use it li
 For easy use cd to path of this bash script and copy/paste line below.
 
 ```
-chmod +x ipainstall.sh && mv ipainstall.sh /usr/local/bin/ipainstall
+sudo chmod +x ipainstall.sh && sudo mv ipainstall.sh /usr/local/bin/ipainstall
 ```
 
 Now you can use it like ipainstall from any dir. on your computer.
@@ -46,10 +46,10 @@ Now you can use it like ipainstall from any dir. on your computer.
 
 **This script have 3 parameters:**
 
-script name: ipainstall
-parameter1: ipa name (app_name.ipa)
-parameter2: ip_address (192.168.1.2) * optional
-parameter3: os_type (iOS for iPhone, iPod, iPad and tvOS for Apple TV 4) * optional
+* script name: ipainstall
+* parameter1: ipa name (app_name.ipa)
+* parameter2: ip_address (192.168.1.2) * optional
+* parameter3: os_type (iOS for iPhone, iPod, iPad and tvOS for Apple TV 4) * optional
 
 If you don't want to install app after sign than don't provide parameter 2. Use this if you want to sign app and manual upload to your device.
 
