@@ -28,7 +28,7 @@ chmod +x jtool && mv jtool /usr/local/bin
 **For Linux**
 
 ```
-chmod +x jtool && mv jtool.ELF64 /usr/local/bin/jtool
+chmod +x jtool.ELF64 && mv jtool.ELF64 /usr/local/bin/jtool
 ```
 
 Now clone this repo or download raw ipainstall.sh on your computer and use it like ./ipascript.sh ipa_name ip_address os_type.
